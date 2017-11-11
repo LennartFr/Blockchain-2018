@@ -148,6 +148,9 @@ peer chaincode query -n mycc -c '{"Function": "query", "Args": ["a"]}'
 
 ~~~
 
+/Users/arnelennartfrantzell/Blockchain/southbay2018/fabric-samples/balance-transfer
+
+
 
 
 ### Step 6: Add the GUI
