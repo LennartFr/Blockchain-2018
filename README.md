@@ -94,15 +94,14 @@ transaction CashToCoins {
 
 ### Step 4: Install Hyperledger Fabric: download fabric.sh
 
+[Getting started with Hyperledger Fabric](https://medium.com/@gaurangtorvekar/getting-started-with-hyperledger-fabric-ba7efb55b75)
+
 #### A Hyperledger Fabric with only one Peer is referred to as NOOPS and disables consensus. 
 It performs no validation. It executes transactions as they arrive.
 It is the default mode while the code is in pre-release version.
 
 #### The other option for running the blockchain nodes is with the validating mechanism, which currently uses PBFT (Practical Byzantine Fault Tolerance) for concensus.
 To do this, you’ll have to run at least 4 nodes at the same time.
-
-
-A Hyperledger with more than one Peer is referred to as 
 
 ~~~
 docker pull hyperledger/fabric-peer:$ARCH-1.0.1 // Peer
