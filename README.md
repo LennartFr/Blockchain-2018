@@ -105,6 +105,14 @@ transaction CashToCoins {
 
 ### Step 4: Install Hyperledger Fabric
 
+~~~
+docker pull hyperledger/fabric-peer:$ARCH-1.0.1 // Peer
+docker pull hyperledger/fabric-ca:$ARCH-1.0.1   // Certificate Authority
+docker pull hyperledger/fabric-ccenv:$ARCH-1.0.1 // Chaincode Environment
+docker pull hyperledger/fabric-orderer:$ARCH-1.0.1 // Orderer
+docker pull hyperledger/fabric-couchdb:$ARCH-1.0.1 // Couchdb
+~~~
+
 ### Step 5: Launch .bna file on Hyperledger Fabric
 
 ### Step 6: Add the GUI
