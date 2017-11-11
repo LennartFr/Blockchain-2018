@@ -9,9 +9,7 @@
 
 ### Step 2: App components
 
-### Step 3: Composer .BNA file
-
-#### Go through Model.cto file:
+### Step 3: Composer: Model.cto file
 
 ~~~
 /**
