@@ -94,16 +94,7 @@ transaction CashToCoins {
 }
 ~~~
 
-
-
-
-
-
-
-
-
-
-### Step 4: Install Hyperledger Fabric
+### Step 4: Install Hyperledger Fabric: download fabric.sh
 
 ~~~
 docker pull hyperledger/fabric-peer:$ARCH-1.0.1 // Peer
@@ -113,12 +104,34 @@ docker pull hyperledger/fabric-orderer:$ARCH-1.0.1 // Orderer
 docker pull hyperledger/fabric-couchdb:$ARCH-1.0.1 // Couchdb
 ~~~
 
-### Step 5: Launch .bna file on Hyperledger Fabric
+### Step 5: Generate the Business Network Archive
+~~~
+./startFabric.sh
+./createComposerProfile.sh
+cd ../
+npm install
+composer archive create -a dist/decentralized-energy-network.bna --sourceType dir --sourceName .
+The composer archive create command has created a file called decentralized-energy-network.bna in the dist folder.
+~~~
+
+### Step 6: Deploy the Fabric
+
+~~~
+cd dist
+composer network deploy -a decentralized-energy-network.bna -p hlfv1 -i PeerAdmin -s randomString -A admin -S
+composer network ping -n decentralized-energy-network -p hlfv1 -i admin -s adminpw
+~~~
 
 ### Step 6: Add the GUI
 
 ### Step 7: Run the app
+~~~
+cd ../angular-app/
+npm install
+To start the application:
 
+npm start
+~~~
 
 
 
