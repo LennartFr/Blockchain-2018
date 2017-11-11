@@ -3,6 +3,6 @@
 
 
 
-* Sources on Blockchain
+# Sources on Blockchain
 
-[Blockchain for Business - An Introduction to Hyperledger Technologies](https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x)
+[edX MOOC: Blockchain for Business - An Introduction to Hyperledger Technologies](https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x)
