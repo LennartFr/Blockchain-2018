@@ -1,6 +1,6 @@
 # Blockchain-2018-v1
 
-## Create a blockchain app to display and interact with a network through a web interface](https://developer.ibm.com/code/patterns/decentralized-energy-hyperledger-composer/)
+## [Decentralized Energy with Hyperledger Composer](https://developer.ibm.com/code/patterns/decentralized-energy-hyperledger-composer/)
 
 
 ### [Get the Code](https://github.com/IBM/Decentralized-Energy-Composer?cm_sp=IBMCode-_-decentralized-energy-hyperledger-composer-_-Get-the-Code)
