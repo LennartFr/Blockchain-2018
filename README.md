@@ -129,6 +129,27 @@ composer network deploy -a decentralized-energy-network.bna -p hlfv1 -i PeerAdmi
 composer network ping -n decentralized-energy-network -p hlfv1 -i admin -s adminpw
 ~~~
 
+
+### Chaincode
+https://medium.com/@gaurangtorvekar/getting-started-with-hyperledger-fabric-ba7efb55b75
+~~~
+Start with the ‘chaincode’
+Now there are two ways of deploying the chaincode — one through the Command Line, and other through the Node SDK.
+In Hyperledger Fabric implementation, a ‘chaincode’ is the actual Smart Contract on the blockchain.
+To run through the command line, and get a feel of the chain code, you can start using it directly from the containers you just started
+Enter one of the containers by using this command
+sudo docker exec -it pbft_vp0_1 bash
+First, deploy the chaincode —
+peer chaincode deploy -n mycc -p github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02 -c '{"Function":"init", "Args": ["a","100", "b", "200"]}'
+Then, invoke the chaincode
+peer chaincode invoke -n mycc -c '{"Function": "invoke", "Args": ["a", "b", "10"]}'
+Then you can query the chaincode
+peer chaincode query -n mycc -c '{"Function": "query", "Args": ["a"]}'
+
+~~~
+
+
+
 ### Step 6: Add the GUI
 
 ### Step 7: Run the app
