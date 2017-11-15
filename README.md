@@ -1,7 +1,7 @@
 # Blockchain-2018-v1
 
 ## [IBM Blockchain Platform](https://www.ibm.com/blockchain/platform/)
-## [IBM Blockchain Platform Technical Overview](cloud-cloud-platform-ku-white-paper-external-kuw12555usen-20171115 (1).pdf)
+## [IBM Blockchain Platform Technical Overview](https://github.com/LennartFr/Blockchain-2018-v1/blob/master/cloud-cloud-platform-white-paper.pdf)
 ## [Develop in a cloud sandbox IBM Cloud Platform](https://ibm-blockchain.github.io/)
 
 
