@@ -4,7 +4,7 @@
 ## [IBM Blockchain Platform Technical Overview](https://github.com/LennartFr/Blockchain-2018-v1/blob/master/cloud-cloud-platform-white-paper.pdf)
 ## [Develop in a cloud sandbox IBM Cloud Platform](https://ibm-blockchain.github.io/)
 
-## [Decentralized Energy with Hyperledger Composer](https://developer.ibm.com/code/patterns/decentralized-energy-hyperledger-composer/)
+## [Decentralized Energy with Hyperledger Composer and Angular](https://developer.ibm.com/code/patterns/decentralized-energy-hyperledger-composer/)
 
 ## [App interface to Composer CTO model](https://github.com/IBM/Decentralized-Energy-Composer/blob/master/test/test.js)
 
