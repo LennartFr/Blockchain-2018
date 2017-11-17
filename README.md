@@ -6,7 +6,7 @@
 
 ## [Decentralized Energy with Hyperledger Composer](https://developer.ibm.com/code/patterns/decentralized-energy-hyperledger-composer/)
 
-## [App interface to Composer CTO model][https://github.com/IBM/Decentralized-Energy-Composer/blob/master/test/test.js]
+## [App interface to Composer CTO model](https://github.com/IBM/Decentralized-Energy-Composer/blob/master/test/test.js)
 
 ### [Get the Code](https://github.com/IBM/Decentralized-Energy-Composer?cm_sp=IBMCode-_-decentralized-energy-hyperledger-composer-_-Get-the-Code)
 
